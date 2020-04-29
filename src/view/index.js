@@ -11,24 +11,18 @@ export const toShowData = async() => {
         //Mapeando datos para obtener nuevo Objecto 
 
         container.innerHTML = res.map(person => {
-
             //Destructuring
             const { name, cell, email, picture } = person;
 
-            return `
-        
-            <div class="card">
+            return `<div class="card">
                 <div class="containerImg">  <img src="${picture.large}"> </div>
                 <div class="containerInfo">
                     <p>${name.title} ${name.first} ${name.last}</p>
                     <p>${cell}</p>
                     <p>${email}</p>
-                </div>
-
-            </div>
-        
-        `;
-        })
+                </div>      
+            </div>`
+        }).join('');
 
     }));
 
