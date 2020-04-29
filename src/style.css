@@ -35,11 +35,15 @@
     flex-direction: column;
 }
 
+.containerImg img {
+    width: 100%;
+}
+
 
 /* Estilos del contenedor del texto*/
 
 .containerInfo {
-    margin-left: 0.5em;
+    margin-left: 1em;
     width: 60%;
     color: #FFF;
 }
