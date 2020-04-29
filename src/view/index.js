@@ -1,10 +1,8 @@
 import { getData } from '../models/request.js';
 
-export const toShowData = async() => {
+export const toShowData = () => {
 
-
-
-    await getData("https://randomuser.me/api/?results=21", ((res) => {
+    getData("https://randomuser.me/api/?results=21", ((res) => {
         //declaro una constante con mi contenedor de cards
         const container = document.getElementById("container-card");
 
