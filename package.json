@@ -1,0 +1,27 @@
+{
+    "name": "personas",
+    "version": "1.0.0",
+    "description": "Data",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "babel index.js"
+    },
+    "keywords": [
+        "data",
+        "personas"
+    ],
+    "author": "Crusiris Nuñez",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "babel-core": "^6.26.3",
+        "babel-jest": "^25.4.0",
+        "eslint": "^6.8.0",
+        "eslint-plugin-jest": "^23.8.2",
+        "html": "^1.0.0",
+        "lint": "^0.7.0"
+    }
+}

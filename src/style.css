@@ -1,0 +1,49 @@
+/* Estilos del contenedor general */
+
+.containerContainerCard {
+    max-width: 1300px;
+    background: blue;
+    margin: 2rem auto;
+}
+
+
+/* Estilos del contenedor de las tarjetas */
+
+.container-card {
+    background: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* Estilos  tarjeta */
+
+.card {
+    background: red;
+    width: 400px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Estilos del contenedor de la imagen */
+
+.containerImg {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: darkblue;
+}
+
+
+/* Estilos del contenedor del texto*/
+
+.containerInfo {
+    margin-left: 0.5em;
+    background: darkmagenta;
+    width: 60%;
+}
