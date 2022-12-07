@@ -23,6 +23,6 @@
         "eslint-plugin-jest": "^23.8.2",
         "gh-pages": "^2.2.0",
         "html": "^1.0.0",
-        "lint": "^0.7.0"
+        "lint": "^0.8.8"
     }
 }
